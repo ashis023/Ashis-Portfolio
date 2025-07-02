@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashis | Portfolio</title>
+    <link rel="shortcut icon" href="assets/favicon.png">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Ashis Ranjan Behera</div>
+   
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div> 
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo animated fadeInUp">Ashis Ranjan Behera</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links animated fadeInUp">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.new.png" alt="Ashis profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Ashis Ranjan Behera</h1>
+        <p class="section__text__ash" style="font-weight:bold;">
+          <span id="element"></span>
+        </p>
+        <br>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Ashis Resume Frontend.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='mailto:beheraashis094@gmail.com'">
+  Hire Me
+</button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/ashish-ranjan-2004-in/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/ashis023'"
+          />
+          <img
+            src="./assets/square-instagram.svg"
+            alt="My Instagram profile"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/___.ashis___/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="assets/ashis abo img.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>    
+       
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>BCA<br />N.C Autonomous<br />2022-2025</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Internship</h3>
+              <p>Web Development <br />Oasis Infobyte<br />June 2024 - July 2024</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+             "Hii, I am Ashis. A recent BCA graduate with a passion for coding and software development. Proficient in languages like JavaScript, Python. Eager to contribute to open-source projects, collaborate with developers, and build innovative solutions. Always learning, growing, and exploring new technologies."
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#skills'"
+      />
+    </section>
+
+    <section id="skills">
+  <p class="section__text__p1">Explore My</p>
+  <h1 class="title">Skills</h1>
+  <div class="skills-list">
+    <div class="skill-item">
+      <img src="./assets/html5.png" alt="HTML" class="icon" />
+      <span>HTML</span>
+    </div>
+    <div class="skill-item">
+      <img src="./assets/css3.png" alt="CSS" class="icon" />
+      <span>CSS</span>
+    </div>
+    <div class="skill-item">
+      <img src="./assets/javascript.png" alt="JavaScript" class="icon" />
+      <span>JavaScript</span>
+    </div>
+    <div class="skill-item">
+      <img src="./assets/react.png" alt="React" class="icon" />
+      <span>React</span>
+    </div>
+    <div class="skill-item">
+      <img src="./assets/uiux.png" alt="UI/UX" class="icon" />
+      <span>UI/UX</span>
+    </div>
+    <div class="skill-item">
+      <img src="./assets/python.png" alt="Python" class="icon" />
+      <span>Python</span>
+    </div>
+    <div class="skill-item">
+      <img src="./assets/php.png" alt="PHP" class="icon" />
+      <span>PHP</span>
+    </div>
+    <div class="skill-item">
+      <img src="./assets/git.png" alt="Git" class="icon" />
+      <span>Git Hub</span>
+    </div>
+  </div>
+  <img
+    src="./assets/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#projects'"
+  />
+</section>
+
+    <section id="projects">
+  <p class="section__text__p1">Browse My Recent</p>
+  <h1 class="title">Projects</h1>
+  <div class="projects-grid">
+    <!-- Project 1 -->
+    <div class="project-card">
+      <img src="./assets/calculator.ashis.jpeg" alt="Calculator Project" class="project-img" />
+      <div class="project-content">
+        <h3 class="project-title">Simple Calculator</h3>
+        <p class="project-desc">A basic calculator web app built with HTML, CSS, and JavaScript.</p>
+        <div class="project-links">
+          <a href="https://github.com/ashis023/CODSOFT-calculator-app" target="_blank" class="btn btn-color-2">GitHub</a>
+          <a href="https://github.com/ashis023/CODSOFT-calculator-app" target="_blank" class="btn btn-color-2">Live Demo</a>
+        </div>
+      </div>
+    </div>
+    <!-- Project 2 -->
+    <div class="project-card">
+      <img src="./assets/Screenshot 2024-06-24 195938.png" alt="Landing Page Project" class="project-img" />
+      <div class="project-content">
+        <h3 class="project-title">Landing Page</h3>
+        <p class="project-desc">A modern, responsive landing page design for a fictional product.</p>
+        <div class="project-links">
+          <a href="https://github.com/ashis023/OIBSIP-Landingpage" target="_blank" class="btn btn-color-2">GitHub</a>
+          <a href="https://ashishlandingpage.netlify.app/" target="_blank" class="btn btn-color-2">Live Demo</a>
+        </div>
+      </div>
+    </div>
+    <!-- Project 3 -->
+    <div class="project-card">
+      <img src="./assets/temp.png" alt="Temperature Converter Project" class="project-img" />
+      <div class="project-content">
+        <h3 class="project-title">Temperature Converter</h3>
+        <p class="project-desc">Convert temperatures between Celsius, Fahrenheit, and Kelvin easily.</p>
+        <div class="project-links">
+          <a href="https://github.com/ashis023/OIBSIB-Temp-conv" target="_blank" class="btn btn-color-2">GitHub</a>
+          <a href="https://github.com/ashis023/OIBSIB-Temp-conv" target="_blank" class="btn btn-color-2">Live Demo</a>
+        </div>
+      </div>
+    </div>
+    <!-- Project 4 -->
+    <div class="project-card">
+      <img src="./assets/Ashis.portfolio.png" alt="Portfolio Project" class="project-img" />
+      <div class="project-content">
+        <h3 class="project-title">Creative Portfolio</h3>
+        <p class="project-desc">A personal portfolio website to showcase my skills and projects.</p>
+        <div class="project-links">
+          <a href="https://github.com/ashis023/ASHIS.PORTFOLIO" target="_blank" class="btn btn-color-2">GitHub</a>
+          <a href="https://github.com/" target="_blank" class="btn btn-color-2">Live Demo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img
+    src="arrow-up-solid.svg"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#profile'"
+  />
+</section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">CONTACT ME</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:beheraashis094@gmail.com">beheraashis094@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/ashish-ranjan-2004-in/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+  <nav>
+    <div class="nav-links-container">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <p style="text-align: center; margin-top:1rem; font-weight:500; color:#333;">Let's connect!</p>
+    <div class="footer-socials" style="margin-top:1rem; display:flex; gap:1rem; justify-content:center;">
+      <a href="https://www.linkedin.com/in/ashish-ranjan-2004-in/" target="_blank">
+        <img src="./assets/linkedin.png" alt="LinkedIn" class="icon" style="height:2rem;">
+      </a>
+      <a href="https://github.com/ashis023" target="_blank">
+        <img src="./assets/github.png" alt="GitHub" class="icon" style="height:2rem;">
+      </a>
+      <a href="https://www.instagram.com/___.ashis___/" target="_blank">
+        <img src="./assets/square-instagram.svg" alt="Instagram" class="icon" style="height:2rem;">
+      </a>
+    </div>
+  </nav>
+  <p>Copyright &#169; 2024 Ashis Ranjan Behera. All Rights Reserved.</p>
+</footer>
+    <script src="script.js"></script>
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['Web Developer.', 'UI/UX.', 'Graphic designer.'],
+        typeSpeed: 60,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
